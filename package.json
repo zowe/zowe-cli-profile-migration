@@ -1,0 +1,22 @@
+{
+  "name": "prof-convert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --pretty"
+  },
+  "author": "DARKSIDE",
+  "license": "EPL-2.0",
+  "dependencies": {
+    "@brightside/imperative": ">=1.1.0-0",
+    "keytar": "^4.2.1"
+  },
+  "scripts": {
+    "build": "node scripts/updateLicense.js && tsc --pretty"
+  },
+  "devDependencies": {
+    "@types/node": "^10.11.3"
+  }
+}

@@ -1,0 +1,4 @@
+zowe-cli-profile-migration.iml
+node_modules/
+lib/
+.idea/
