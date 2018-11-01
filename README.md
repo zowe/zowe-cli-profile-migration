@@ -13,9 +13,13 @@ NOTE: A Windows script is also provided to remove credentials from the operating
 
 * WindowsSecureCredentialsCleanup.bat removes credentials from the Windows Vault.
 
-To execute the project, from a terminal application, change to the project directory
+**To execute the project:**
 
-* Clone zowe-cli-profile-migration.
+* Clone the zowe-cli-profile-migration repository.
+
+From a terminal application:
+
+* Change to the project directory.
 * Execute 'npm install'.
 * Execute 'npm run build'.
 * Execute 'node ./lib/convert.js'.
