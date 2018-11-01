@@ -12,3 +12,12 @@ Involves the migration of profiles from the .brightside directory to the .zowe d
 NOTE: A Windows script is also provided to remove credentials from the operating system.
 
 * WindowsSecureCredentialsCleanup.bat removes credentials from the Windows Vault.
+
+To execute the project, from a terminal application, change to the project directory
+
+* Clone zowe-cli-profile-migration.
+* Execute 'npm install'.
+* Execute 'npm run build'.
+* Execute 'node ./lib/convert.js'.
+
+NOTE: There is no output from the utility.
